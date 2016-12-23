@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Shopping List</title>
+	<link rel="stylesheet" href="css/Content.css">
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:100,300,400">
+	<script src="http://code.jquery.com/jquery.min.js"></script>
+	<script src="js/shop.js"></script>
+</head>
+<body>
+<nav> 
+				<ul class="clearfix">
+					<li><a class="what" href="#">Info!</a></li>
+				</ul>
+			</nav>
+<!-- Modal Information Box -->
+			<div class="overlay" id="modal">
+				<div class="content">
+					<h3>Shopping List Information</h3>
+					<div>
+						<p>This is a Shopping List application in the market for any User's store. </p>
+						<ul>
+							<li>1. A user can create a new grocery store item by typing their item and either clicking on the Add button or pressing Enter on the Keyboard. The new item will pop-up on the list .</li>
+
+							<li>2. User already have 5 items set up for them, you can delete them by creating your own list depending on your store.</li>
+
+							<li>3. User can delete items on the list, but needs to check item first and press the cross icon at the corner</li>
+
+                            <li>4. User must be typing an item before clicking on Add button and if you do a message info will pop-up, and user can also edit item. </li>
+
+
+						</ul>
+						<p>Try it, It's easy</p>
+						<a class="close" href="#">Okay!!!</a>
+					</div>
+				</div>
+			</div>
+
+
+   <section class="container">
+     <div id="jumbotron">
+     <div class="input">
+       <h1>*** SHOPPING LIST ***</h1>
+       <h2 class="Write"> Please Enter an Item in order to  be added</h2></div>
+   
+
+<div class="shopping">
+<span class="buttons"></span>
+<button id="plus">ADD</button>
+
+
+<input type="text" id="name" placeholder="Add More Items"></div>
+
+<div class="trace">
+<ul class="List">
+
+	 <li><input type="checkbox" class="checkbox" > Pants<span id="minus">X</span></li>
+	 <li><input type="checkbox" class="checkbox"> Shoes<span id="minus">X</span></li>
+	 <li><input type="checkbox" class="checkbox"> Bags<span id="minus">X</span></li>
+	 <li><input type="checkbox" class="checkbox" > Snikers<span id="minus">X</span></li>
+	 <li><input type="checkbox" class="checkbox">  Shoes<span id="minus">X</span></li>
+  </ul>
+
+  </div>
+  </div>
+
+<h6 class="max">&#169;Copyright&nbsp;- Maxime
+
+</section>
+
+   
+</body>
+</html>
